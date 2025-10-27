@@ -68,9 +68,7 @@ export default function App() {
                   <div className="w-64">
                     <div className="border-8 border-amber-400 rounded-lg shadow-xl overflow-hidden bg-white p-2">
                       <div className="w-full h-72 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded">
-                        <svg className="w-32 h-32 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                        </svg>
+                        <img className="w-32 h-32 rounded-full object-cover" src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/public/shivam.png" alt="Profile Picture" />
                       </div>
                     </div>
                   </div>
