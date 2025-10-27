@@ -68,7 +68,7 @@ export default function App() {
                   <div className="w-64">
                     <div className="border-8 border-amber-400 rounded-lg shadow-xl overflow-hidden bg-white p-2">
                       <div className="w-full h-72 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded">
-                        <img className="w-32 h-32 rounded-full object-cover" src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/public/shivam.png" alt="Profile Picture" />
+                        <img className="w-32 h-32 rounded-full object-cover" src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/shivam.png" alt="Profile Picture" />
                       </div>
                     </div>
                   </div>
