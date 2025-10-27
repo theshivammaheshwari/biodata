@@ -52,6 +52,22 @@ export default function App() {
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-4 sm:p-6 rounded-b-lg border-2 sm:border-4 border-emerald-600">
                 <div className="flex flex-col lg:flex-row gap-4 sm:gap-8">
+                  {/* Photo Section - Mobile pe top mein */}
+                  <div className="w-full flex justify-center lg:w-64 lg:justify-end order-1 lg:order-2">
+                    <div className="w-48 sm:w-56 lg:w-64">
+                      <div className="border-4 sm:border-8 border-amber-400 rounded-lg shadow-xl overflow-hidden bg-white p-1 sm:p-2">
+                        <div className="w-full aspect-[3/4] bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded">
+                          <img 
+                            className="w-full h-full object-cover object-center" 
+                            src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/shivam.png" 
+                            alt="Profile Picture" 
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Details Section */}
                   <div className="flex-1 order-2 lg:order-1">
                     <div className="space-y-2 sm:space-y-3">
                       <DetailRow label="Full Name" value="Shivam Maheshwari" bold />
@@ -63,13 +79,6 @@ export default function App() {
                       <DetailRow label="Caste" value="Maheshwari" />
                       <DetailRow label="Complexion" value="Fair" />
                       <DetailRow label="Marital Status" value="Unmarried" />
-                    </div>
-                  </div>
-                  <div className="w-full sm:w-48 lg:w-64 mx-auto order-1 lg:order-2">
-                    <div className="border-4 sm:border-8 border-amber-400 rounded-lg shadow-xl overflow-hidden bg-white p-1 sm:p-2">
-                      <div className="w-full h-48 sm:h-56 lg:h-72 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded">
-                        <img className="w-full h-full object-cover" src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/shivam.png" alt="Profile Picture" />
-                      </div>
                     </div>
                   </div>
                 </div>
