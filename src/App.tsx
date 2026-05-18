@@ -73,7 +73,7 @@ export default function App() {
                       <DetailRow label="Full Name" value="Shivam Maheshwari" bold />
                       <DetailRow label="Date of Birth" value="13th February, 1991" />
                       <DetailRow label="Time of Birth" value="04:30 AM" />
-                      <DetailRow label="Age" value="34 Years" />
+                      <DetailRow label="Age" value="35Years" />
                       <DetailRow label="Height" value="5'10&quot;" />
                       <DetailRow label="Gotra" value="Khatod & Jhanwar" />
                       <DetailRow label="Caste" value="Maheshwari" />
