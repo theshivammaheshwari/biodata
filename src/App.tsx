@@ -11,22 +11,22 @@ export default function App() {
           {/* Corner Stars */}
           <div className="absolute top-2 sm:top-4 left-2 sm:left-4 w-4 sm:w-8 h-4 sm:h-8 text-amber-400">
             <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
           </div>
           <div className="absolute top-2 sm:top-4 right-2 sm:right-4 w-4 sm:w-8 h-4 sm:h-8 text-amber-400">
             <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
           </div>
           <div className="absolute bottom-2 sm:bottom-4 left-2 sm:left-4 w-4 sm:w-8 h-4 sm:h-8 text-amber-400">
             <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
           </div>
           <div className="absolute bottom-2 sm:bottom-4 right-2 sm:right-4 w-4 sm:w-8 h-4 sm:h-8 text-amber-400">
             <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
           </div>
 
@@ -57,16 +57,16 @@ export default function App() {
                     <div className="w-48 sm:w-56 lg:w-64">
                       <div className="border-4 sm:border-8 border-amber-400 rounded-lg shadow-xl overflow-hidden bg-white p-1 sm:p-2">
                         <div className="w-full aspect-[3/4] bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded">
-                          <img 
-                            className="w-full h-full object-cover object-center" 
-                            src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/shivam.png" 
-                            alt="Profile Picture" 
+                          <img
+                            className="w-full h-full object-cover object-center"
+                            src="https://raw.githubusercontent.com/theshivammaheshwari/biodata/main/shivam.png"
+                            alt="Profile Picture"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                  
+
                   {/* Details Section */}
                   <div className="flex-1 order-2 lg:order-1">
                     <div className="space-y-2 sm:space-y-3">
@@ -110,7 +110,7 @@ export default function App() {
                   />
                   <EducationRow
                     degree="Pay"
-                    details="₹1,07,206.00 Per Month"
+                    details="₹1,11,507.00 Per Month"
                   />
                 </div>
               </div>
@@ -200,7 +200,7 @@ export default function App() {
                   />
                   <ContactRow
                     label="Email"
-                    value="theshivammaheshwari@gmail.com"
+                    value="shivamtensor@gmail.com"
                   />
                 </div>
               </div>
